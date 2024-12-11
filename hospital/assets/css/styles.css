@@ -1,0 +1,27 @@
+/* Custom Sidebar */
+#wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar-wrapper {
+    width: 250px;
+    height: 100vh;
+}
+
+#page-content-wrapper {
+    width: 100%;
+}
+
+.toggled #sidebar-wrapper {
+    margin-left: -250px;
+}
+
+.sidebar-heading {
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+.list-group-item {
+    padding: 15px;
+}
